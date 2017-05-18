@@ -1,7 +1,14 @@
-sudo: false
 language: rust
+
 rust:
   - stable
   - beta
   - nightly
+
 cache: cargo
+
+sudo: required
+
+before_script:
+    - sudo apt-get update -qq
+    - sudo apt-get install -y libx11-xcb-dev
