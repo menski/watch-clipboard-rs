@@ -1,0 +1,17 @@
+[package]
+authors = ["Sebastian Menski <sebastian@menski.org>"]
+description = "Monitor clipboard for changes and print them to stdout"
+license = "MIT"
+name = "watch-clipboard"
+readme = "README.md"
+version = "0.1.0"
+
+homepage = "https://github.com/menski/watch-clipboard-rs"
+repository = "https://github.com/menski/watch-clipboard-rs"
+
+[dependencies]
+clap = "2.24.2"
+clipboard = "0.3.0"
+error-chain = "0.10.0"
+log = "0.3.7"
+loggerv = "0.3.0"
